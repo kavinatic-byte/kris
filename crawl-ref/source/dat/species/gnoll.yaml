@@ -1,0 +1,59 @@
+enum: SP_GNOLL
+monster: MONS_GNOLL
+name: Gnoll
+difficulty: Simple
+difficulty_priority: 100
+aptitudes:
+  xp: 0
+  hp: 0
+  mp_mod: 0
+  wl: 3
+  fighting: 8
+  short_blades: 9
+  long_blades: 9
+  axes: 9
+  maces_and_flails: 9
+  polearms: 9
+  staves: 9
+  ranged weapons: 9
+  throwing: 8
+  armour: 8
+  dodging: 8
+  stealth: 8
+  shields: 8
+  unarmed_combat: 9
+  spellcasting: 7
+  conjurations: 5
+  hexes: 5
+  summoning: 5
+  forgecraft: 5
+  necromancy: 5
+  translocations: 5
+  fire_magic: 5
+  ice_magic: 5
+  air_magic: 5
+  earth_magic: 5
+  alchemy: 5
+  invocations: 10
+  evocations: 8
+  shapeshifting: 8
+str: 7
+int: 7
+dex: 7
+levelup_stat_frequency: 4
+mutations:
+  1:
+    MUT_TREASURE_SENSE: 1
+    MUT_FANGS: 1
+    MUT_DISTRIBUTED_TRAINING: 1
+recommended_jobs:
+  - cinder acolyte
+  - reaver
+  - warper
+  - hexslinger
+  - mystic
+  - wanderer
+  - forgewright
+
+child_name: Pup
+orc_name: Hyenorc
